@@ -55,6 +55,19 @@ if (list.length) {  // 如果当前目录不为空
           // return;
         }
       })
+  }else {
+    rootName = '.';
+    next = inquirer.prompt([
+      {
+        name: 'buildInCurrent',
+        message: '当前目录为空，且目录名称和项目名称相同，是否直接在当前目录下创建新项目？',
+        type: 'confirm',
+        default: true
+      }
+    ]).then(answer => {
+      console.log(answer.buildInCurrent)
+      return Promise.resolve(answer.buildInCurrent ? '.' : projectName)
+    })
   }
 } else if (rootName === projectName) {  // 如果文件名和根目录文件名一致
   rootName = '.';
