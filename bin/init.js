@@ -91,7 +91,7 @@ next && go()
 
 function go () {
   // 预留，处理子命令
-  next.then(projectRoot => { //
+  next.then(projectRoot => { 
     if (projectRoot !== '.') {
       fs.mkdirSync(projectRoot)
     }
@@ -159,9 +159,7 @@ function go () {
     console.log(chalk.green('cd ' + context.projectRoot + '\nnpm install\nnpm start'))
   }).catch(err => {
     console.error(err)
-     // 失败了用红色，增强提示
-     console.log(err);
-    //  console.error(logSymbols.error, chalk.red(`创建失败：${err.message}`))
+    console.log(err);
   })
 }
 
