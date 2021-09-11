@@ -1,6 +1,7 @@
 <h2 style="text-align:center">my-cli</h2>
 <br>
-<p align="center"><a href="https://devui.design/admin-page/home" target="_blank" rel="noopener noreferrer"><img alt="DevUI Logo" src="assets/logo.png" width="180" style="max-width:100%;">
+<br>
+<p align="center"><img alt="DevUI Logo" src="assets/logo.png" width="180" style="max-width:100%;">
 </p>
 
 
