@@ -5,7 +5,7 @@
   <a target="_blank">My Cli</a>
 </h1>
 
-my cli is the start point of muy web frontend experience.welcome to read my experience.
+my cli is the start point of my web frontend experience.welcome to read my experience.
 
 
 # 工程侧
@@ -16,6 +16,7 @@ my cli is the start point of muy web frontend experience.welcome to read my expe
 
 
 整个前端工程生态的应用，包括组件库、node后端工程（使用常用的node框架实现）、CI/CD流程、小程序、跨端实践等。生态的入口计划使用脚手架的方式，因为说到底脚手架克隆下来的就是代码模版，而且这是应用层面的实践，因此使用脚手架是一种非常便捷的管理方式。
+
 
 ## 计划
 
@@ -51,6 +52,13 @@ node阶段需要侧重后端的核心逻辑，出了接口、路由之外，侧�
 
 
 ## 前端工程化系列
+
+### 打包系列
+
+[vite实践-vue3-composition-admin模版](https://github.com/RainManGO/vue3-composition-admin)
+
+
+
 
 
 ## 前端动画系列
